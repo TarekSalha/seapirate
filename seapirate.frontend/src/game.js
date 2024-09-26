@@ -22,7 +22,7 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-  this.load.image('island', 'src/assets/island.png');  // Load assets using Webpack's file-loader
+  this.load.image('island', 'assets/island.png');  // Load assets using Webpack's file-loader
 }
 
 function create() {
