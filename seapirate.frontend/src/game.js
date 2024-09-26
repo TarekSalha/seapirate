@@ -26,8 +26,9 @@ function preload() {
 }
 
 function create() {
-  this.cameras.main.setBackgroundColor('#87CEEB');  // Light blue background
+  this.cameras.main.setBackgroundColor('#45accf');  // Light blue background
   this.add.image(200, 150, 'island');  // Add the image to the scene
+  this.add.image(400, 350, 'island');  // Add the image to the scene
 }
 
 function update() {
