@@ -33,7 +33,6 @@ yarn-error.log*
 
 # Webpack stats and configs
 webpack-stats.json
-webpack.config.js
 
 # Temporary files
 *.tmp

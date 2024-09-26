@@ -1,4 +1,6 @@
 import Phaser from 'phaser';
+import favicon from './assets/favicon.ico';
+import island from './assets/island.png';
 
 var config = {
   type: Phaser.AUTO,
@@ -20,12 +22,12 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-  this.load.image('island', 'assets/island.png');  // Load assets using Webpack's file-loader
+  this.load.image('island', 'src/assets/island.png');  // Load assets using Webpack's file-loader
 }
 
 function create() {
   this.cameras.main.setBackgroundColor('#87CEEB');  // Light blue background
-  this.add.image(400, 300, 'island');  // Add the image to the scene
+  this.add.image(200, 150, 'island');  // Add the image to the scene
 }
 
 function update() {
